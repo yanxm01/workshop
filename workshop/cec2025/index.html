@@ -4309,11 +4309,26 @@
             <td style="vertical-align:top; display: flex; flex-direction: column; align-items: center;">
               <b style="margin-top: 10px;">Hangzhou International Expo Center</b>
               <br>
-              <iframe
+              <!-- <iframe
                 src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3447.2976641115215!2d120.23882707655106!3d30.228586974831483!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x344c9c986bb0299b%3A0xe2354aded7a067a5!2z5p2t5bee5Zu96ZmF5Y2a6KeI5Lit5b-D!5e0!3m2!1szh-CN!2ssg!4v1743750442601!5m2!1szh-CN!2ssg"
                 width="400" height="200" style="border:0;" allowfullscreen="" loading="lazy"
                 referrerpolicy="no-referrer-when-downgrade">
-              </iframe>
+              </iframe> -->
+              <script type="text/javascript">
+                window._AMapSecurityConfig = {
+                  securityJsCode: "0cb10be45aebb20dacb9ebae3c67dacf",
+                };
+              </script>
+              <div id="container123" style="width: 400;height: 200;"></div>
+              <!-- 加载地图JSAPI脚本 -->
+              <script src="https://webapi.amap.com/maps?v=2.0&key=9ea66e22bf96cc6b610261f9f1e80d50"></script>
+              <script>
+                var map = new AMap.Map('container123', {
+                  viewMode: '2D', // 默认使用 2D 模式，如果希望使用带有俯仰角的 3D 模式，请设置 viewMode: '3D'
+                  zoom: 15, // 初始化地图层级
+                  center: [120.238787, 30.229506] // 初始化地图中心点
+                });
+              </script>
             </td>
           </tr>
         </tbody>
@@ -4464,7 +4479,8 @@
                 <a href="https://en.westlake.edu.cn/faculty/yaochu-jin.html" target="_blank"><img border="0"
                     height="150" width="120" src="./MMDO_FILES/jyc-clip.png"></a>
                 <div style="text-align:left"><a href="https://en.westlake.edu.cn/faculty/yaochu-jin.html"
-                    target="_blank" style="display: inline-block; margin-bottom: 7px;">Yaochu Jin, PhD, IEEE Fellow</a><br> Chair Professor of AI,<br>School of
+                    target="_blank" style="display: inline-block; margin-bottom: 7px;">Yaochu Jin, PhD, IEEE
+                    Fellow</a><br> Chair Professor of AI,<br>School of
                   Engineering,<br>Westlake University</div>
               </div>
             </td>
@@ -4475,8 +4491,9 @@
               <div style="display: flex; align-items: center;gap: 10px;">
                 <a href="https://sist.gdufs.edu.cn/info/1763/9947.htm" target="_blank"><img border="0" height="150"
                     width="120" src="./MMDO_FILES/yxm.jpg"></a>
-                <div style="text-align:left"><a href="https://sist.gdufs.edu.cn/info/1763/9947.htm"
-                    target="_blank" style="display: inline-block; margin-bottom: 7px;">Xueming Yan, PhD</a><br> Associate Professor,<br>School of Information Science and
+                <div style="text-align:left"><a href="https://sist.gdufs.edu.cn/info/1763/9947.htm" target="_blank"
+                    style="display: inline-block; margin-bottom: 7px;">Xueming Yan, PhD</a><br> Associate
+                  Professor,<br>School of Information Science and
                   Technology,<br>Guangdong University of Foreign Studies</div>
               </div>
             </td>
@@ -4499,8 +4516,9 @@
                 <a href="https://teacher.hebut.edu.cn/publish/2023147233e3fb8c11edab95286ed488d6f1008/"
                   target="_blank"><img border="0" height="150" src="./MMDO_FILES/lqq.jpg"></a>
                 <div style="text-align:left"><a
-                    href="https://teacher.hebut.edu.cn/publish/2023147233e3fb8c11edab95286ed488d6f1008/"
-                    target="_blank" style="display: inline-block; margin-bottom: 7px;">Qiqi Liu, PhD</a><br> Lecturer,<br>School of Engineering,<br>Westlake University
+                    href="https://teacher.hebut.edu.cn/publish/2023147233e3fb8c11edab95286ed488d6f1008/" target="_blank"
+                    style="display: inline-block; margin-bottom: 7px;">Qiqi Liu, PhD</a><br> Lecturer,<br>School of
+                  Engineering,<br>Westlake University
                 </div>
               </div>
             </td>
@@ -4512,8 +4530,9 @@
               <div style="display: flex; align-items: center;gap: 10px;">
                 <a href="https://engineering.lehigh.edu/faculty/lifang-he" target="_blank"><img border="0" height="150"
                     src="./MMDO_FILES/hlf.jpg"></a>
-                <div style="text-align:left"><a href="https://engineering.lehigh.edu/faculty/lifang-he"
-                    target="_blank" style="display: inline-block; margin-bottom: 7px;">Lifang He, PhD</a><br> Associate Professor,<br>Computer Science &
+                <div style="text-align:left"><a href="https://engineering.lehigh.edu/faculty/lifang-he" target="_blank"
+                    style="display: inline-block; margin-bottom: 7px;">Lifang He, PhD</a><br> Associate
+                  Professor,<br>Computer Science &
                   Engineering,<br>Lehigh University</div>
               </div>
             </td>
@@ -4537,8 +4556,9 @@
               <div style="display: flex; align-items: center;gap: 10px;">
                 <a href="https://www.mmdo.org.cn/workshop/cec2025/" target="_blank"><img border="0" height="150"
                     src="./MMDO_FILES/yyc.jpg"></a>
-                <div style="text-align:left"><a href="https://www.mmdo.org.cn/workshop/cec2025/"
-                    target="_blank" style="display: inline-block; margin-bottom: 7px;">Yingchao Yu</a><br>PhD Student,<br>School of Information Science and Technology,<br>Donghua
+                <div style="text-align:left"><a href="https://www.mmdo.org.cn/workshop/cec2025/" target="_blank"
+                    style="display: inline-block; margin-bottom: 7px;">Yingchao Yu</a><br>PhD Student,<br>School of
+                  Information Science and Technology,<br>Donghua
                   University</div>
               </div>
             </td>
@@ -4552,7 +4572,9 @@
                 <a href="https://www.mmdo.org.cn/workshop/cec2025/" target="_blank"><img border="0" height="150"
                     src="./MMDO_FILES/cry.jpg"></a>
                 <div style="text-align:left">
-                  <a href="https://www.mmdo.org.cn/workshop/cec2025/" target="_blank" style="display: inline-block; margin-bottom: 7px;">Runyang Cai</a><br>Master student,<br>Computer Science & Engineering,<br>Guangdong University of Foreign Studies
+                  <a href="https://www.mmdo.org.cn/workshop/cec2025/" target="_blank"
+                    style="display: inline-block; margin-bottom: 7px;">Runyang Cai</a><br>Master student,<br>Computer
+                  Science & Engineering,<br>Guangdong University of Foreign Studies
                 </div>
               </div>
             </td>
